@@ -1,97 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <!-- contenido para los metadatos de las pagina web -->
-    <!-- checar OpenGraph: https://ogp.me/ -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="portafolio de Diego Vega, ingeniero de software backend">
-    <link rel="stylesheet" href="./styles/index.css">
-    <title>Portafolio | Diego Vega</title>
-</head>
+    <head>
+        <!-- contenido para los metadatos de las pagina web -->
+        <!-- checar OpenGraph: https://ogp.me/ -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description"
+            content="portafolio de Diego Vega, ingeniero de software backend">
+        <link rel="stylesheet" href="./styles/index.css">
+        <title>Portafolio | Diego Vega</title>
+    </head>
 
-<body>
-    <header>
-        <h1>Diego Vega - Ingeniero de Software jr</h1>
-        <nav>
-            <a href="#aboutme">acerca de mi</a>
-            <a href="#tech">tech stack</a>
-            <a href="#proyects">proyectos</a>
-            <a href="#summary">Resumen</a>
-            <a href="https://www.linkedin.com/in/juan-diego-vega-romero-739aa81b9/" target="_blank"
-                rel="noreferrer">Linkdin</a>
-            <a href="https://github.com/DiegoVega19-dvl" target="_blank" rel="noreferrer">Github</a>
-        </nav>
-        <section>
-            <header>
-                <h4 id="aboutme">acerca de mi</h4>
-                <p>Hola me llamo Diego y me dedico a la programacion, actualmente estoy estudiando tecnologias
-                    para el desarrollo <strong>backend con java</strong> (tambien se un poco de php por practicas de la
-                    escuela)</p>
-            </header>
-        </section>
-    </header>
-    <main>
-        <section>
-            <h3 id="tech">tech stack:</h3>
-            <code>
-                <ul>
-                <li>php</li>
-                <li>java</li>
-                <li>Laravel</li>
-                <li>Spring</li>
-                <li>html</li>
-                <li>React</li>
-                <li>MySql</li>
-                <li>Postgresql</li>
-            </ul>
-            </code>
-        </section>
-        <section>
-            <h3 id="#summary">mi experiencia:</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, molestias aliquam quam neque ullam
-                placeat ex consectetur ut magnam alias temporibus est excepturi eum error officia saepe magni! Nisi,
-                perspiciatis?</p>
-        </section>
-        <section>
-            <h3 id="proyects">mis proyectos:</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos perferendis maiores vel deserunt dolorem
-                eos aperiam, omnis nihil cupiditate modi, natus obcaecati alias officia aliquam laudantium doloremque,
-                magni eius excepturi.</p>
-        </section>
-    </main>
-    <footer>
+    <body>
+        <header>
+            <div class="resumen">
+                <h1>Diego Vega - $ingenieroDeSoftwareJr;</h1>
+                <nav>
+                    <a href="#aboutme">acerca de mi</a>
+                    <a href="#tech">tech stack</a>
+                    <a href="#proyects">proyectos</a>
+                    <a href="#summary">Resumen</a>
+                    <a
+                        href="https://www.linkedin.com/in/juan-diego-vega-romero-739aa81b9/"
+                        target="_blank"
+                        rel="noreferrer">Linkdin</a>
+                    <a href="https://github.com/DiegoVega19-dvl" target="_blank"
+                        rel="noreferrer">Github</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section>
+                <header>
+                    <h4 id="aboutme">acerca de mi</h4>
+                    <p>Hola me llamo Diego y me dedico a la programacion,
+                        actualmente estoy estudiando tecnologias
+                        para el desarrollo <strong>backend con C#</strong>
+                        (tambien se un poco de php por practicas de la
+                        escuela)</p>
+                </header>
+            </section>
+            <section>
+                <h3 id="tech">tech stack:</h3>
+                <code>
+                    <ul>
+                        <li>php</li>
+                        <li>C#</li>
+                        <li>Laravel</li>
+                        <li>.NET</li>
+                        <li>html</li>
+                        <li>Vue</li>
+                        <li>MySql</li>
+                        <li>Postgresql</li>
+                    </ul>
+                </code>
+            </section>
+            <section>
+                <h3 id="#summary">mi experiencia:</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tenetur, molestias aliquam quam neque ullam
+                    placeat ex consectetur ut magnam alias temporibus est
+                    excepturi eum error officia saepe magni! Nisi,
+                    perspiciatis?</p>
+            </section>
+            <section>
+                <h3 id="proyects">mis proyectos:</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quos perferendis maiores vel deserunt dolorem
+                    eos aperiam, omnis nihil cupiditate modi, natus obcaecati
+                    alias officia aliquam laudantium doloremque,
+                    magni eius excepturi.</p>
+            </section>
+        </main>
+        <footer>
 
-        <h3>contacto</h3>
-        <form action="/" method="post">
-            <fieldset>
-                <legend>informacion:</legend>
-                <div>
-                    <label>Nombre:
-                        <input type="text" name="name" placeholder="Diego" required>
-                    </label>
-                </div>
-                <div>
-                    <label>correo:
-                        <input type="email" name="email" placeholder="diego@mail.com" required>
-                    </label>
-                </div>
-                <div>
-                    <label>telefono:
-                        <input type="tel" name="tel" placeholder="+526122...." required>
-                    </label>
+            <h3>contacto</h3>
+            <form action="/" method="post">
+                <fieldset>
+                    <legend>informacion:</legend>
+                    <div>
+                        <label>Nombre:
+                            <input type="text" name="name" placeholder="Diego"
+                                required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>correo:
+                            <input type="email" name="email"
+                                placeholder="diego@mail.com" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>telefono:
+                            <input type="tel" name="tel"
+                                placeholder="+526122...." required>
+                        </label>
 
-                </div>
-            </fieldset>
+                    </div>
+                </fieldset>
 
-            <button>enviar</button>
+                <button>enviar</button>
 
-        </form>
+            </form>
 
-        <img class="tilus" src="./images/nautilus.jpg">
+            <img class="tilus" src="./assets/images/nautilus.jpg">
 
-    </footer>
-</body>
+        </footer>
+    </body>
 
 </html>
