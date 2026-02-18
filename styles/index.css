@@ -35,3 +35,14 @@ code {
     font-size: 16px;
 }
 
+.link:hover {
+    color: gray; 
+
+}
+
+/* estos son operadores para poder estilar de manera secuencial o de manera por pasos: */
+/* los cuales son los operadores + > ˜            */
+
+/* algo muy inmportante que hay tener en cuenta de la cascada en css es la especificidad*/
+/* que seria los niveles de especificacion del contenido*/
+
