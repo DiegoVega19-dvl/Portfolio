@@ -1,43 +1,50 @@
-
-header{
-    text-align: center;
+header {
+  /* esto es un selector*/
+  text-align: center; /*esto es una declaracion*/
 }
 
 body {
-    font-family: 'Times New Roman';
-
-
+  font-family: "Times New Roman";
+  color: black;
+  /*background-color: rgba(0, 0, 0, 50%); rgba es legacy*/
+  background-color: rgb(255, 255, 255); /*uso moderno*/
+  /*background-color: oklch(59.2% 0.351 271.0); esta es una alternativa mas robusta (colores mas precisos)*/
 }
 
-.resumen{
-    text-align: center;
+.resumen {
+  text-align: center;  
 }
-
-
 
 h1 {
-    border-width: 3px;
-    border-style: solid;
-    color: currentColor;
-    display: inline-block;
+  border-width: 3px;
+  border-style: solid;
+  color: currentColor;
+  display: inline-block;
 }
 
 .tilus {
-    opacity: .5;
-    width: 200px;
-    height: 150px;
-    margin: 10px auto 10px;
-    display: block;
+  opacity: 0.5;
+  width: 200px;
+  height: 150px;
+  margin: 10px auto 10px;
+  display: block;
+}
 
+.tilus:hover {
+  opacity: 1;
 }
 
 code {
-    font-size: 16px;
+  font-size: 16px;
+}
+
+.link {
+  text-align: center;
+  margin-left: 1%;
 }
 
 .link:hover {
-    color: gray; 
-
+  color: gray;
 }
 
 /* estos son operadores para poder estilar de manera secuencial o de manera por pasos: */
@@ -45,4 +52,3 @@ code {
 
 /* algo muy inmportante que hay tener en cuenta de la cascada en css es la especificidad*/
 /* que seria los niveles de especificacion del contenido*/
-
